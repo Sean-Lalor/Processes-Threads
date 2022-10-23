@@ -1,0 +1,13 @@
+Made a slight change to how the data is added basically it adds the file
+in each of the .c files so no need for any extra effort.
+
+
+gcc <filename.c> -o <filename> -std=c99 -lpthread -Wall -Werror -lm  -DM_PI=3.14159265358979323846
+
+followed by
+./process
+./serial
+./thread
+./processThread
+
+and they should load the file directly into the system with no extra input.
